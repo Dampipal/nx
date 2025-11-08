@@ -1,6 +1,6 @@
 {
-  "name": "@nx/landing",
-  "version": "0.0.1",
+  "name": "landing",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
     "next": "~15.2.4",
