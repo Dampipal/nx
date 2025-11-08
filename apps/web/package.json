@@ -1,0 +1,24 @@
+{
+  "name": "@nx/web",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "next": "~15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "targets": {
+  "serve": {
+    "executor": "@nx/next:serve",
+    "options": {
+      "buildTarget": "@nx/web:build",
+      "dev": true
+    }
+  },
+  "build": {
+    "executor": "@nx/next:build",
+    "outputs": ["{options.outputPath}"]
+  }
+}
+
+}

@@ -16,6 +16,10 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@nx/source"]
+    "customConditions": ["@nx/source"],
+    "baseUrl": ".",
+    "paths": {
+      "@nx/math": ["packages/math/src/index.ts"]
+    }
   }
 }
